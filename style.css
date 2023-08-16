@@ -1,0 +1,200 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+nav
+  {
+    height: 118px;
+   
+  }
+
+     .menu_bar 
+     {
+      width: 74%;
+      margin-top: 44px;
+       background-image: linear-gradient(#161c26, #052764, #8f7676);
+      float: right;
+      border-radius: 17px 0px 0px 0px; 
+      font-size: 20px; 
+      font-weight: 29px;
+      margin-bottom: 0px;
+     }
+     .menu_bar li
+     {
+      text-transform: uppercase;
+     	float: left;
+      margin-left: 23px;
+      list-style: none;
+      position: relative;
+
+     }
+     .menu_bar li a
+     {
+      color: white;
+     	display: block;
+     	padding: 22px 14px;
+     	text-decoration: none;
+     }
+     .menu_bar li ul
+     {
+     	width: 180%;
+      position: absolute;
+     }
+     .innner_menu 
+     {
+
+      background-image: linear-gradient(#161c26, #052764, #8f7676);
+     }
+
+.innner_menu li
+{
+
+	display: none;
+}
+ nav ul li:hover ul li
+{ 
+	display: block;	
+}
+
+.menu_bar li a:before{
+	content: " ";
+	width: 0%;
+
+	height: 2px;
+	position: absolute;
+	top: 70%;
+	transition: all 0.5s linear;
+}
+
+.menu_bar li a:hover:before
+{
+
+	width: 80%;
+	background-color: white;
+}
+.logo
+{
+	height: 83%;
+	width: 17%;
+	margin-top: 22px;
+	margin-left: 62px;
+}
+.section
+{
+	height: 300px;
+		
+}
+.box{
+	width: 25%;
+	height: 35%;
+
+	margin: 52px;
+	display: inline-block;
+}
+.box img
+{
+	width: 100%;
+	border-radius: 12px;
+}
+
+.innner_menu 
+{
+  
+  width: 120%;
+  z-index: 1;
+  border-bottom-right-radius:12px;
+  border-bottom-left-radius:12px;
+}
+@media(max-width: 1179px)
+{
+	.menu_bar li
+	{
+		display: none;
+	}
+}
+.section
+{
+  width: 55%;
+  display: inline-block;
+  position: relative;
+  height: 400px;
+  padding: 18px;
+}
+.section_image
+{
+	width: 45%;
+    /*background-color: powderblue;*/
+    float: right;
+
+    padding: 33px;
+    height: 400px;
+}
+.section_image img
+{
+  border-radius: 42px;
+}
+
+@media(max-width: 819px)
+{
+	.section_image
+	{
+        display: none;
+	}
+     .section
+     {
+     	width: 100%;
+     }
+     .logo
+     {
+     	width: 40%;
+     }
+}
+@media(max-width: 320px)
+{
+	.logo
+	{
+		width: 45%;
+	}
+}
+.section_image img
+{
+	padding: 12px;
+	margin-bottom: 11px;
+	width: 47%;
+ 
+}
+.footer
+{
+	margin-top: 22px;
+	background-color: black;
+	height: 300px;
+    color: white;
+    text-align: center;
+    
+}
+.footer p
+{
+	margin-top: 118px;
+	border-top: 1px solid white;
+}
+
+
+.fa
+{
+	padding: 12px;
+	display: center;
+	color: white;
+	margin-top: 63px;
+	text-align: center;
+}
+.fa:hover
+{
+	color: yellow;
+	opacity: .7;
+	/*list-style: none;*/
+	text-decoration: none;
+}
+.expo
+{
+	color: yellow;
+}
